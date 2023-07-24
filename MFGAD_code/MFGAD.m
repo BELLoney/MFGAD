@@ -5,9 +5,10 @@
 function MFGAF=MFGAD(data,delta)
 %%%input:
 % data is data matrix without decisions, where rows for samples and columns for attributes. 
+% Numeric attribute data is normalized to [0,1].
 % delta is used to adjust the adaptive fuzzy radius.
 %%%output
-% multi-fuzzy granules anomaly factor.
+% Multi-fuzzy granules anomaly factors.
 
 [n,m]=size(data);
 
