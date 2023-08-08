@@ -6,7 +6,7 @@ Unsupervised anomaly detection is an important research direction in the process
 
 ## Usage
 You can run Demo_MFGAD.m or MFGAD.py:
-```
+
 You can get outputs as follows:
 ```
 out_scores =
@@ -16,6 +16,7 @@ out_scores =
     0.7486
     0.8045
     0.8880
+```
 
 ## Citation
 If you find MFGAD useful in your research, please consider citing:
