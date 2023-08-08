@@ -14,6 +14,7 @@ format short
 load Example.mat
 Dataori=Example;
 trandata=Dataori;
+
 trandata(:,2:3)=normalize(trandata(:,2:3),'range');
 sigma=1;
 
@@ -35,13 +36,13 @@ out_scores =
 If you find MFGAD useful in your research, please consider citing:
 ```
 @article{yuan2023MFGAD,
-   title={MFGAD: Multi-fuzzy granules anomaly detection},
-   author={Yuan, Zhong  and Chen, Hongmei and Luo, Chuan  and Peng, De Zhong},
-   journal={Information Fusion},
-   year={2023},
-   volume={95},
-   pages={17-25},
-   doi={10.1016/j.inffus.2023.02.007},
-   publisher={Elsevier}
+title = {MFGAD: Multi-fuzzy granules anomaly detection},
+author = {Yuan, Zhong  and Chen, Hongmei and Luo, Chuan  and Peng, De Zhong},
+journal = {Information Fusion},
+volume = {95},
+pages = {17-25},
+year = {2023},
+doi={10.1016/j.inffus.2023.02.007},
+publisher={Elsevier}
 }
 ```
