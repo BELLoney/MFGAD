@@ -4,11 +4,6 @@
 ## Abstract
 Unsupervised anomaly detection is an important research direction in the process of unsupervised knowledge acquisition. It has been successfully applied in many fields, such as online fraud identification, loan approval, and medical diagnosis. Multi-granularity thinking is an effective information fusion method for solving problems in a multi-granular environment, which allows people to understand and analyze problems from multiple perspectives. However, there are few studies on building anomaly detection models using the idea of multi-fuzzy granules. To this end, this paper constructs a multi-fuzzy granules anomaly detection method by using a fuzzy rough computing model. In this method, a hybrid metric is first used to calculate the fuzzy relations. Then, two ranking sequences are constructed based on the significance of attributes. Furthermore, forward and reverse multi-fuzzy granules are constructed to define anomaly scores based on the ranking sequences. Finally, a multi-fuzzy granules-based anomaly detection algorithm is designed to detect anomalies. The experimental results compared with existing algorithms show the effectiveness of the proposed algorithm.
 
-## Framework
-<h4>Figure 1 The pipeline of the proposed method and we take a bimodal case as an example. In the example, two modality-specific networks learn unified binary representations for different modalities. The outputs of networks directly interact with the hash codes to learn the latent discrimination by using instance-level contrast without continuous relaxation, i.e., contrastive hashing learning (𝓛<sub>𝒸</sub>). The cross-modal ranking loss 𝓛<sub>𝑟</sub> is utilized to bridge cross-modal hashing learning to cross-modal retrieval.
-</h4> 
-<img src=MFGAD_code/MFGAD-Framework.jpg class='center' \>
-
 ## Usage
 You can run Demo_MFGAD.m or MFGAD.py:
 ```
