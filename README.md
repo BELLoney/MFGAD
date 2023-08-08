@@ -7,7 +7,7 @@ Unsupervised anomaly detection is an important research direction in the process
 ## Framework
 <h4>Figure 1 The pipeline of the proposed method and we take a bimodal case as an example. In the example, two modality-specific networks learn unified binary representations for different modalities. The outputs of networks directly interact with the hash codes to learn the latent discrimination by using instance-level contrast without continuous relaxation, i.e., contrastive hashing learning (𝓛<sub>𝒸</sub>). The cross-modal ranking loss 𝓛<sub>𝑟</sub> is utilized to bridge cross-modal hashing learning to cross-modal retrieval.
 </h4> 
-<img src=paper/UCCH.jpg class='center' \>
+<img src=MFGAD_code/MFGAD-Framework.jpg class='center' \>
 
 ## Usage
 You can run Demo_MFGAD.m or MFGAD.py:
