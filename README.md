@@ -39,7 +39,7 @@ If you find MFGAD useful in your research, please consider citing:
 ```
 @article{yuan2023MFGAD,
 title = {MFGAD: Multi-fuzzy granules anomaly detection},
-author = {Yuan, Zhong  and Chen, Hongmei and Luo, Chuan  and Peng, De Zhong},
+author = {Yuan, Zhong  and Chen, Hong Mei and Luo, Chuan  and Peng, De Zhong},
 journal = {Information Fusion},
 volume = {95},
 pages = {17-25},
