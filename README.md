@@ -50,4 +50,4 @@ publisher={Elsevier}
 ```
 
 ## Contact
-If you have any question, please contact yuanzhong@scu.edu.cn.
+If you have any questions, please contact yuanzhong@scu.edu.cn.
